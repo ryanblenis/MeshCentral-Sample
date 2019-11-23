@@ -17,7 +17,7 @@ module.exports.sample = function (parent) {
     
     obj.onDesktopDisconnect = function() {  // this is called when the desktop disconnect button is clicked
         writeDeviceEvent(encodeURIComponent(currentNode._id));  // mimic what the button does on the device main page to pull up a log
-        Q('d2devEvent').text(Date().toLocaleString()+': '); // pre-fill the date for a timestamp
+        Q('d2devEvent').value = Date().toLocaleString()+': '; // pre-fill the date for a timestamp
         focusTextBox('d2devEvent');
     }
     

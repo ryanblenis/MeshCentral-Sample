@@ -1,7 +1,7 @@
 {
   "name": "Sample Plugin",
   "shortName": "sample",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "author": "Ryan Blenis",
   "description": "A sample plugin. Prompt for note on remote desktop disconnect.",
   "hasAdminPanel": false,
