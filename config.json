@@ -1,0 +1,18 @@
+{
+  "name": "Sample Plugin",
+  "shortName": "sample",
+  "version": "0.0.1",
+  "author": "Ryan Blenis",
+  "description": "A sample plugin. Prompt for note on remote desktop disconnect.",
+  "hasAdminPanel": false,
+  "homepage": "https://github.com/ryanblenis/MeshCentral-Sample",
+  "changelogUrl": "https://raw.githubusercontent.com/ryanblenis/MeshCentral-Sample/master/changelog.md",
+  "configUrl": "https://raw.githubusercontent.com/ryanblenis/MeshCentral-Sample/master/config.json",
+  "downloadUrl": "https://github.com/ryanblenis/MeshCentral-Sample/archive/master.zip",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ryanblenis/MeshCentral-Sample.git"
+  },
+  "versionHistoryUrl": "https://api.github.com/repos/ryanblenis/MeshCentral-Sample/tags",
+  "meshCentralCompat": ">=0.4.4-s"
+}
