@@ -8,7 +8,7 @@ Sample plugin for the [MeshCentral2](https://github.com/Ylianst/MeshCentral) Pro
 
  Pre-requisite: First, make sure you have plugins enabled for your MeshCentral installation:
 >     "plugins": {
->          enabled: true
+>          "enabled": true
 >     },
 Restart your MeshCentral server after making this change.
 
